@@ -177,3 +177,24 @@ section {
 .white{
   color: white;
 }
+.scene {
+	position: absolute;
+	width: 100%;
+  transform: translateY(var(--translateY));
+  
+	will-change: transform;
+}
+.sceneright{
+  position: absolute;
+	width: 100%;
+  transform:translateX(var(--tx));
+  
+	will-change: transform;
+}
+.slideright{
+  position: absolute;
+	width: 100%;
+  transform:translateX(var(--trx));
+  
+	will-change: transform;
+}
